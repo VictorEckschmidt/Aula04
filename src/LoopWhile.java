@@ -16,7 +16,7 @@ public class LoopWhile {
 		qtde = leitor.nextInt();
 	
 		
-		while(i<10) {
+		while(i<qtde) {
 			System.out.println("Digite a idade do " + (i + 1) + "° aluno");
 			idade = leitor.nextInt();
 			soma = soma + idade;
